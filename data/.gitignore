@@ -1,0 +1,7 @@
+# Ignore everything
+**
+
+# Allow .dvc files
+!**/*.dvc
+!.gitignore
+

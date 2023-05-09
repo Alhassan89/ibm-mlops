@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install git
+sudo apt install vim
+sudo apt install curl
+sudo apt install make
+udo apt install awscli
+curl -sSL https://install.python-poetry.org | python3 -
+export PATH="/home/alhassan/.local/bin:$PATH"
+
+PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring poetry lock -vvv

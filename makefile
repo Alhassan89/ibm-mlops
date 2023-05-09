@@ -4,10 +4,10 @@ check:
 	poetry check
 
 install: check
-	poetry install --no-root
+	PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring poetry install --no-root -vvv
 
 lock:
-	poetry lock
+	PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring poetry lock
 
 dvc:
 	poetry run dvc pull -a

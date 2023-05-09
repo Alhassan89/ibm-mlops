@@ -1,0 +1,7 @@
+md5: 80e016c0dbabebf28442480ffd217075
+outs:
+- md5: 6f350d1d32c69a733e1a5c27150290f3
+  path: breast_cancer_data.csv
+  cache: true
+  metric: false
+  persist: false
